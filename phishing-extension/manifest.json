@@ -1,0 +1,12 @@
+{
+  "manifest_version": 3,
+  "name": "AI Phishing Detector",
+  "description": "Detects phishing websites using an ML model",
+  "version": "1.0",
+
+  "permissions": ["tabs", "activeTab"],
+
+  "action": {
+    "default_popup": "popup.html"
+  }
+}
